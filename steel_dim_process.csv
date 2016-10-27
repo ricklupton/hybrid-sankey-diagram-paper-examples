@@ -1,0 +1,273 @@
+id,function,sector
+galvanising plant,galvanising,steel
+no cold rolling,cold forming,steel
+end of life scrap,scrap prep,steel
+no organic coating,organic coating,steel
+cold rolling mill,cold forming,steel
+casting loss,loss,steel
+CC bloom scrap,casting scrap,steel
+galvanised steel,*,steel
+organic coating plant,organic coating,steel
+electric furnace,steelmaking,steel
+steelmaking loss,loss,steel
+forming scrap collection,scrap prep,steel
+primary mill,other casting,steel
+scrap input,scrap prep,steel
+steel product casting,other casting,steel
+forming loss,loss,steel
+foundry iron casting,other casting,steel
+plate mill,hot forming,steel
+CC billet,continuous casting,steel
+oxygen blown converter,steelmaking,steel
+rod + bar mill,hot forming,steel
+blast furnace,reduction,steel
+cast steel products,cast iron products,steel
+no coating,galvanising,steel
+fabrication scrap collection,scrap prep,steel
+scrap iron,scrap prep,steel
+CC slab scrap,casting scrap,steel
+tube welding plant,cold forming,steel
+iron ore,inputs,steel
+steel product casting scrap,casting scrap,steel
+foundry casting scrap,casting scrap,steel
+hot strip mill,hot forming,steel
+CC billet scrap,casting scrap,steel
+open hearth furnace,steelmaking,steel
+ingot casting scrap,casting scrap,steel
+seamless tube plant,cold forming,steel
+reduction loss,loss,steel
+CC slab,continuous casting,steel
+scrap preparation,scrap prep,steel
+tinmill,galvanising,steel
+section mill,hot forming,steel
+ingot casting,other casting,steel
+CC bloom,continuous casting,steel
+cast iron products,cast iron products,steel
+direct reduction,reduction,steel
+welded tube,welded tube,steel
+cold rolled coil,cold rolled coil,steel
+hot rolled bar,hot rolled bar,steel
+CRC tinned,CRC tinned,steel
+HR narrow strip,HR narrow strip,steel
+heavy sections,heavy sections,steel
+hot rolled coil,hot rolled coil,steel
+CRC coated,CRC coated,steel
+rail,rail,steel
+CRC galvanised,CRC galvanised,steel
+HRC galvanised,HRC galvanised,steel
+light sections,light sections,steel
+seamless tube,seamless tube,steel
+electrical sheet,electrical sheet,steel
+reinforcing bar,reinforcing bar,steel
+plate,plate,steel
+wire rod,wire rod,steel
+manufacturing:Buildings,manufacturing,Buildings
+scrap:Buildings,scrap,scrap
+fabrication:CRC coated:Buildings,fab CRC coated,Buildings
+fabrication:CRC galvanised:Buildings,fab CRC galvanised,Buildings
+fabrication:CRC tinned:Buildings,fab CRC tinned,Buildings
+fabrication:HR narrow strip:Buildings,fab HR narrow strip,Buildings
+fabrication:HRC galvanised:Buildings,fab HRC galvanised,Buildings
+fabrication:cast iron products:Buildings,fab cast iron products,Buildings
+fabrication:cast steel products:Buildings,fab cast steel products,Buildings
+fabrication:cold rolled coil:Buildings,fab cold rolled coil,Buildings
+fabrication:electrical sheet:Buildings,fab electrical sheet,Buildings
+fabrication:heavy sections:Buildings,fab heavy sections,Buildings
+fabrication:hot rolled bar:Buildings,fab hot rolled bar,Buildings
+fabrication:hot rolled coil:Buildings,fab hot rolled coil,Buildings
+fabrication:light sections:Buildings,fab light sections,Buildings
+fabrication:plate:Buildings,fab plate,Buildings
+fabrication:rail:Buildings,fab rail,Buildings
+fabrication:reinforcing bar:Buildings,fab reinforcing bar,Buildings
+fabrication:seamless tube:Buildings,fab seamless tube,Buildings
+fabrication:welded tube:Buildings,fab welded tube,Buildings
+fabrication:wire rod:Buildings,fab wire rod,Buildings
+manufacturing:Infrastructure,manufacturing,Infrastructure
+scrap:Infrastructure,scrap,scrap
+fabrication:CRC coated:Infrastructure,fab CRC coated,Infrastructure
+fabrication:CRC galvanised:Infrastructure,fab CRC galvanised,Infrastructure
+fabrication:CRC tinned:Infrastructure,fab CRC tinned,Infrastructure
+fabrication:HR narrow strip:Infrastructure,fab HR narrow strip,Infrastructure
+fabrication:HRC galvanised:Infrastructure,fab HRC galvanised,Infrastructure
+fabrication:cast iron products:Infrastructure,fab cast iron products,Infrastructure
+fabrication:cast steel products:Infrastructure,fab cast steel products,Infrastructure
+fabrication:cold rolled coil:Infrastructure,fab cold rolled coil,Infrastructure
+fabrication:electrical sheet:Infrastructure,fab electrical sheet,Infrastructure
+fabrication:heavy sections:Infrastructure,fab heavy sections,Infrastructure
+fabrication:hot rolled bar:Infrastructure,fab hot rolled bar,Infrastructure
+fabrication:hot rolled coil:Infrastructure,fab hot rolled coil,Infrastructure
+fabrication:light sections:Infrastructure,fab light sections,Infrastructure
+fabrication:plate:Infrastructure,fab plate,Infrastructure
+fabrication:rail:Infrastructure,fab rail,Infrastructure
+fabrication:reinforcing bar:Infrastructure,fab reinforcing bar,Infrastructure
+fabrication:seamless tube:Infrastructure,fab seamless tube,Infrastructure
+fabrication:welded tube:Infrastructure,fab welded tube,Infrastructure
+fabrication:wire rod:Infrastructure,fab wire rod,Infrastructure
+manufacturing:Cars,manufacturing,Cars
+scrap:Cars,scrap,scrap
+fabrication:CRC coated:Cars,fab CRC coated,Cars
+fabrication:CRC galvanised:Cars,fab CRC galvanised,Cars
+fabrication:CRC tinned:Cars,fab CRC tinned,Cars
+fabrication:HR narrow strip:Cars,fab HR narrow strip,Cars
+fabrication:HRC galvanised:Cars,fab HRC galvanised,Cars
+fabrication:cast iron products:Cars,fab cast iron products,Cars
+fabrication:cast steel products:Cars,fab cast steel products,Cars
+fabrication:cold rolled coil:Cars,fab cold rolled coil,Cars
+fabrication:electrical sheet:Cars,fab electrical sheet,Cars
+fabrication:heavy sections:Cars,fab heavy sections,Cars
+fabrication:hot rolled bar:Cars,fab hot rolled bar,Cars
+fabrication:hot rolled coil:Cars,fab hot rolled coil,Cars
+fabrication:light sections:Cars,fab light sections,Cars
+fabrication:plate:Cars,fab plate,Cars
+fabrication:rail:Cars,fab rail,Cars
+fabrication:reinforcing bar:Cars,fab reinforcing bar,Cars
+fabrication:seamless tube:Cars,fab seamless tube,Cars
+fabrication:welded tube:Cars,fab welded tube,Cars
+fabrication:wire rod:Cars,fab wire rod,Cars
+manufacturing:Trucks,manufacturing,Trucks
+scrap:Trucks,scrap,scrap
+fabrication:CRC coated:Trucks,fab CRC coated,Trucks
+fabrication:CRC galvanised:Trucks,fab CRC galvanised,Trucks
+fabrication:CRC tinned:Trucks,fab CRC tinned,Trucks
+fabrication:HR narrow strip:Trucks,fab HR narrow strip,Trucks
+fabrication:HRC galvanised:Trucks,fab HRC galvanised,Trucks
+fabrication:cast iron products:Trucks,fab cast iron products,Trucks
+fabrication:cast steel products:Trucks,fab cast steel products,Trucks
+fabrication:cold rolled coil:Trucks,fab cold rolled coil,Trucks
+fabrication:electrical sheet:Trucks,fab electrical sheet,Trucks
+fabrication:heavy sections:Trucks,fab heavy sections,Trucks
+fabrication:hot rolled bar:Trucks,fab hot rolled bar,Trucks
+fabrication:hot rolled coil:Trucks,fab hot rolled coil,Trucks
+fabrication:light sections:Trucks,fab light sections,Trucks
+fabrication:plate:Trucks,fab plate,Trucks
+fabrication:rail:Trucks,fab rail,Trucks
+fabrication:reinforcing bar:Trucks,fab reinforcing bar,Trucks
+fabrication:seamless tube:Trucks,fab seamless tube,Trucks
+fabrication:welded tube:Trucks,fab welded tube,Trucks
+fabrication:wire rod:Trucks,fab wire rod,Trucks
+manufacturing:Ships + other,manufacturing,Ships + other
+scrap:Ships + other,scrap,scrap
+fabrication:CRC coated:Ships + other,fab CRC coated,Ships + other
+fabrication:CRC galvanised:Ships + other,fab CRC galvanised,Ships + other
+fabrication:CRC tinned:Ships + other,fab CRC tinned,Ships + other
+fabrication:HR narrow strip:Ships + other,fab HR narrow strip,Ships + other
+fabrication:HRC galvanised:Ships + other,fab HRC galvanised,Ships + other
+fabrication:cast iron products:Ships + other,fab cast iron products,Ships + other
+fabrication:cast steel products:Ships + other,fab cast steel products,Ships + other
+fabrication:cold rolled coil:Ships + other,fab cold rolled coil,Ships + other
+fabrication:electrical sheet:Ships + other,fab electrical sheet,Ships + other
+fabrication:heavy sections:Ships + other,fab heavy sections,Ships + other
+fabrication:hot rolled bar:Ships + other,fab hot rolled bar,Ships + other
+fabrication:hot rolled coil:Ships + other,fab hot rolled coil,Ships + other
+fabrication:light sections:Ships + other,fab light sections,Ships + other
+fabrication:plate:Ships + other,fab plate,Ships + other
+fabrication:rail:Ships + other,fab rail,Ships + other
+fabrication:reinforcing bar:Ships + other,fab reinforcing bar,Ships + other
+fabrication:seamless tube:Ships + other,fab seamless tube,Ships + other
+fabrication:welded tube:Ships + other,fab welded tube,Ships + other
+fabrication:wire rod:Ships + other,fab wire rod,Ships + other
+manufacturing:Mechanical equipment,manufacturing,Mechanical equipment
+scrap:Mechanical equipment,scrap,scrap
+fabrication:CRC coated:Mechanical equipment,fab CRC coated,Mechanical equipment
+fabrication:CRC galvanised:Mechanical equipment,fab CRC galvanised,Mechanical equipment
+fabrication:CRC tinned:Mechanical equipment,fab CRC tinned,Mechanical equipment
+fabrication:HR narrow strip:Mechanical equipment,fab HR narrow strip,Mechanical equipment
+fabrication:HRC galvanised:Mechanical equipment,fab HRC galvanised,Mechanical equipment
+fabrication:cast iron products:Mechanical equipment,fab cast iron products,Mechanical equipment
+fabrication:cast steel products:Mechanical equipment,fab cast steel products,Mechanical equipment
+fabrication:cold rolled coil:Mechanical equipment,fab cold rolled coil,Mechanical equipment
+fabrication:electrical sheet:Mechanical equipment,fab electrical sheet,Mechanical equipment
+fabrication:heavy sections:Mechanical equipment,fab heavy sections,Mechanical equipment
+fabrication:hot rolled bar:Mechanical equipment,fab hot rolled bar,Mechanical equipment
+fabrication:hot rolled coil:Mechanical equipment,fab hot rolled coil,Mechanical equipment
+fabrication:light sections:Mechanical equipment,fab light sections,Mechanical equipment
+fabrication:plate:Mechanical equipment,fab plate,Mechanical equipment
+fabrication:rail:Mechanical equipment,fab rail,Mechanical equipment
+fabrication:reinforcing bar:Mechanical equipment,fab reinforcing bar,Mechanical equipment
+fabrication:seamless tube:Mechanical equipment,fab seamless tube,Mechanical equipment
+fabrication:welded tube:Mechanical equipment,fab welded tube,Mechanical equipment
+fabrication:wire rod:Mechanical equipment,fab wire rod,Mechanical equipment
+manufacturing:Electrical equipment,manufacturing,Electrical equipment
+scrap:Electrical equipment,scrap,scrap
+fabrication:CRC coated:Electrical equipment,fab CRC coated,Electrical equipment
+fabrication:CRC galvanised:Electrical equipment,fab CRC galvanised,Electrical equipment
+fabrication:CRC tinned:Electrical equipment,fab CRC tinned,Electrical equipment
+fabrication:HR narrow strip:Electrical equipment,fab HR narrow strip,Electrical equipment
+fabrication:HRC galvanised:Electrical equipment,fab HRC galvanised,Electrical equipment
+fabrication:cast iron products:Electrical equipment,fab cast iron products,Electrical equipment
+fabrication:cast steel products:Electrical equipment,fab cast steel products,Electrical equipment
+fabrication:cold rolled coil:Electrical equipment,fab cold rolled coil,Electrical equipment
+fabrication:electrical sheet:Electrical equipment,fab electrical sheet,Electrical equipment
+fabrication:heavy sections:Electrical equipment,fab heavy sections,Electrical equipment
+fabrication:hot rolled bar:Electrical equipment,fab hot rolled bar,Electrical equipment
+fabrication:hot rolled coil:Electrical equipment,fab hot rolled coil,Electrical equipment
+fabrication:light sections:Electrical equipment,fab light sections,Electrical equipment
+fabrication:plate:Electrical equipment,fab plate,Electrical equipment
+fabrication:rail:Electrical equipment,fab rail,Electrical equipment
+fabrication:reinforcing bar:Electrical equipment,fab reinforcing bar,Electrical equipment
+fabrication:seamless tube:Electrical equipment,fab seamless tube,Electrical equipment
+fabrication:welded tube:Electrical equipment,fab welded tube,Electrical equipment
+fabrication:wire rod:Electrical equipment,fab wire rod,Electrical equipment
+manufacturing:Metal goods,manufacturing,Metal goods
+scrap:Metal goods,scrap,scrap
+fabrication:CRC coated:Metal goods,fab CRC coated,Metal goods
+fabrication:CRC galvanised:Metal goods,fab CRC galvanised,Metal goods
+fabrication:CRC tinned:Metal goods,fab CRC tinned,Metal goods
+fabrication:HR narrow strip:Metal goods,fab HR narrow strip,Metal goods
+fabrication:HRC galvanised:Metal goods,fab HRC galvanised,Metal goods
+fabrication:cast iron products:Metal goods,fab cast iron products,Metal goods
+fabrication:cast steel products:Metal goods,fab cast steel products,Metal goods
+fabrication:cold rolled coil:Metal goods,fab cold rolled coil,Metal goods
+fabrication:electrical sheet:Metal goods,fab electrical sheet,Metal goods
+fabrication:heavy sections:Metal goods,fab heavy sections,Metal goods
+fabrication:hot rolled bar:Metal goods,fab hot rolled bar,Metal goods
+fabrication:hot rolled coil:Metal goods,fab hot rolled coil,Metal goods
+fabrication:light sections:Metal goods,fab light sections,Metal goods
+fabrication:plate:Metal goods,fab plate,Metal goods
+fabrication:rail:Metal goods,fab rail,Metal goods
+fabrication:reinforcing bar:Metal goods,fab reinforcing bar,Metal goods
+fabrication:seamless tube:Metal goods,fab seamless tube,Metal goods
+fabrication:welded tube:Metal goods,fab welded tube,Metal goods
+fabrication:wire rod:Metal goods,fab wire rod,Metal goods
+manufacturing:Domestic appliances,manufacturing,Domestic appliances
+scrap:Domestic appliances,scrap,scrap
+fabrication:CRC coated:Domestic appliances,fab CRC coated,Domestic appliances
+fabrication:CRC galvanised:Domestic appliances,fab CRC galvanised,Domestic appliances
+fabrication:CRC tinned:Domestic appliances,fab CRC tinned,Domestic appliances
+fabrication:HR narrow strip:Domestic appliances,fab HR narrow strip,Domestic appliances
+fabrication:HRC galvanised:Domestic appliances,fab HRC galvanised,Domestic appliances
+fabrication:cast iron products:Domestic appliances,fab cast iron products,Domestic appliances
+fabrication:cast steel products:Domestic appliances,fab cast steel products,Domestic appliances
+fabrication:cold rolled coil:Domestic appliances,fab cold rolled coil,Domestic appliances
+fabrication:electrical sheet:Domestic appliances,fab electrical sheet,Domestic appliances
+fabrication:heavy sections:Domestic appliances,fab heavy sections,Domestic appliances
+fabrication:hot rolled bar:Domestic appliances,fab hot rolled bar,Domestic appliances
+fabrication:hot rolled coil:Domestic appliances,fab hot rolled coil,Domestic appliances
+fabrication:light sections:Domestic appliances,fab light sections,Domestic appliances
+fabrication:plate:Domestic appliances,fab plate,Domestic appliances
+fabrication:rail:Domestic appliances,fab rail,Domestic appliances
+fabrication:reinforcing bar:Domestic appliances,fab reinforcing bar,Domestic appliances
+fabrication:seamless tube:Domestic appliances,fab seamless tube,Domestic appliances
+fabrication:welded tube:Domestic appliances,fab welded tube,Domestic appliances
+fabrication:wire rod:Domestic appliances,fab wire rod,Domestic appliances
+manufacturing:Food packaging,manufacturing,Food packaging
+scrap:Food packaging,scrap,scrap
+fabrication:CRC coated:Food packaging,fab CRC coated,Food packaging
+fabrication:CRC galvanised:Food packaging,fab CRC galvanised,Food packaging
+fabrication:CRC tinned:Food packaging,fab CRC tinned,Food packaging
+fabrication:HR narrow strip:Food packaging,fab HR narrow strip,Food packaging
+fabrication:HRC galvanised:Food packaging,fab HRC galvanised,Food packaging
+fabrication:cast iron products:Food packaging,fab cast iron products,Food packaging
+fabrication:cast steel products:Food packaging,fab cast steel products,Food packaging
+fabrication:cold rolled coil:Food packaging,fab cold rolled coil,Food packaging
+fabrication:electrical sheet:Food packaging,fab electrical sheet,Food packaging
+fabrication:heavy sections:Food packaging,fab heavy sections,Food packaging
+fabrication:hot rolled bar:Food packaging,fab hot rolled bar,Food packaging
+fabrication:hot rolled coil:Food packaging,fab hot rolled coil,Food packaging
+fabrication:light sections:Food packaging,fab light sections,Food packaging
+fabrication:plate:Food packaging,fab plate,Food packaging
+fabrication:rail:Food packaging,fab rail,Food packaging
+fabrication:reinforcing bar:Food packaging,fab reinforcing bar,Food packaging
+fabrication:seamless tube:Food packaging,fab seamless tube,Food packaging
+fabrication:welded tube:Food packaging,fab welded tube,Food packaging
+fabrication:wire rod:Food packaging,fab wire rod,Food packaging

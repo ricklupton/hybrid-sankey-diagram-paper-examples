@@ -1,0 +1,380 @@
+source,target,material_shape,material_type,material_coating,value,material
+iron ore,direct reduction,bulk,iron ore,none,66.3,bulk_iron ore_none
+iron ore,blast furnace,bulk,iron ore,none,935.2,bulk_iron ore_none
+direct reduction,electric furnace,bulk,direct reduction iron,none,65.8,bulk_direct reduction iron_none
+direct reduction,reduction loss,loss,loss,none,0.5,loss_loss_none
+blast furnace,reduction loss,loss,loss,none,6.8,loss_loss_none
+blast furnace,electric furnace,bulk,pig iron,none,44.6,bulk_pig iron_none
+blast furnace,oxygen blown converter,bulk,pig iron,none,824.6,bulk_pig iron_none
+blast furnace,open hearth furnace,bulk,pig iron,none,34.0,bulk_pig iron_none
+blast furnace,foundry iron casting,bulk,pig iron,none,25.2,bulk_pig iron_none
+electric furnace,steelmaking loss,loss,loss,none,54.5,loss_loss_none
+oxygen blown converter,steelmaking loss,loss,loss,none,140.5,loss_loss_none
+open hearth furnace,steelmaking loss,loss,loss,none,4.6,loss_loss_none
+electric furnace,CC bloom,bulk,liquid steel,none,67.8,bulk_liquid steel_none
+electric furnace,CC billet,bulk,liquid steel,none,328.5,bulk_liquid steel_none
+electric furnace,ingot casting,bulk,liquid steel,none,6.8,bulk_liquid steel_none
+electric furnace,steel product casting,bulk,liquid steel,none,4.0,bulk_liquid steel_none
+oxygen blown converter,CC bloom,bulk,liquid steel,none,32.8,bulk_liquid steel_none
+oxygen blown converter,CC billet,bulk,liquid steel,none,159.1,bulk_liquid steel_none
+oxygen blown converter,CC slab,bulk,liquid steel,none,646.7,bulk_liquid steel_none
+oxygen blown converter,ingot casting,bulk,liquid steel,none,53.0,bulk_liquid steel_none
+open hearth furnace,ingot casting,bulk,liquid steel,none,29.3,bulk_liquid steel_none
+CC bloom,casting loss,loss,loss,none,1.6,loss_loss_none
+CC bloom,CC bloom scrap,scrap,cast steel,none,8.8,scrap_cast steel_none
+CC bloom scrap,CC bloom,scrap,cast steel,none,8.8,scrap_cast steel_none
+CC bloom,forming scrap collection,scrap,cast steel,none,2.0,scrap_cast steel_none
+CC billet,casting loss,loss,loss,none,1.6,loss_loss_none
+CC billet,CC billet scrap,scrap,cast steel,none,8.8,scrap_cast steel_none
+CC billet scrap,CC billet,scrap,cast steel,none,8.8,scrap_cast steel_none
+CC billet,forming scrap collection,scrap,cast steel,none,2.0,scrap_cast steel_none
+CC slab,casting loss,loss,loss,none,3.0,loss_loss_none
+CC slab,CC slab scrap,scrap,cast steel,none,16.5,scrap_cast steel_none
+CC slab scrap,CC slab,scrap,cast steel,none,16.5,scrap_cast steel_none
+CC slab,forming scrap collection,scrap,cast steel,none,3.7,scrap_cast steel_none
+ingot casting,casting loss,loss,loss,none,0.5,loss_loss_none
+ingot casting,ingot casting scrap,scrap,cast steel,none,1.4,scrap_cast steel_none
+ingot casting scrap,ingot casting,scrap,cast steel,none,1.4,scrap_cast steel_none
+CC bloom,section mill,bloom,cast steel,none,99.2,bloom_cast steel_none
+CC billet,rod + bar mill,billet,cast steel,none,442.2,billet_cast steel_none
+CC billet,hot strip mill,billet,cast steel,none,41.8,billet_cast steel_none
+CC slab,plate mill,slab,cast steel,none,132.0,slab_cast steel_none
+CC slab,hot strip mill,slab,cast steel,none,508.0,slab_cast steel_none
+ingot casting,primary mill,ingot,cast steel,none,82.0,ingot_cast steel_none
+ingot casting,steel product casting,ingot,cast steel,none,6.7,ingot_cast steel_none
+steel product casting,cast steel products,cast products,cast steel,none,10.5,cast products_cast steel_none
+steel product casting,casting loss,loss,loss,none,0.1,loss_loss_none
+steel product casting,steel product casting scrap,scrap,cast steel,none,9.6,scrap_cast steel_none
+steel product casting scrap,steel product casting,scrap,cast steel,none,9.6,scrap_cast steel_none
+foundry iron casting,cast iron products,cast products,cast iron,none,68.3,cast products_cast iron_none
+foundry iron casting,casting loss,loss,loss,none,0.5,loss_loss_none
+foundry iron casting,foundry casting scrap,scrap,cast iron,none,34.7,scrap_cast iron_none
+foundry casting scrap,foundry iron casting,scrap,cast iron,none,34.7,scrap_cast iron_none
+primary mill,forming scrap collection,scrap,cast steel,none,5.3,scrap_cast steel_none
+primary mill,casting loss,loss,loss,none,0.8,loss_loss_none
+primary mill,section mill,bloom,cast steel,none,5.2,bloom_cast steel_none
+primary mill,rod + bar mill,billet,cast steel,none,49.1,billet_cast steel_none
+primary mill,plate mill,slab,cast steel,none,6.9,slab_cast steel_none
+primary mill,hot strip mill,slab,cast steel,none,14.6,slab_cast steel_none
+section mill,forming scrap collection,scrap,hot rolled steel,none,8.9,scrap_hot rolled steel_none
+section mill,forming loss,loss,loss,none,1.6,loss_loss_none
+rod + bar mill,forming scrap collection,scrap,hot rolled steel,none,22.0,scrap_hot rolled steel_none
+rod + bar mill,forming loss,loss,loss,none,7.5,loss_loss_none
+plate mill,forming scrap collection,scrap,hot rolled steel,none,12.3,scrap_hot rolled steel_none
+plate mill,forming loss,loss,loss,none,1.6,loss_loss_none
+hot strip mill,forming scrap collection,scrap,hot rolled steel,none,18.8,scrap_hot rolled steel_none
+hot strip mill,forming loss,loss,loss,none,5.6,loss_loss_none
+rod + bar mill,seamless tube plant,rod/bar,hot rolled steel,none,30.0,rod/bar_hot rolled steel_none
+plate mill,tube welding plant,plate,hot rolled steel,none,15.0,plate_hot rolled steel_none
+hot strip mill,tube welding plant,coil,hot rolled steel,none,51.7,coil_hot rolled steel_none
+hot strip mill,cold rolling mill,coil,hot rolled steel,none,288.1,coil_hot rolled steel_none
+seamless tube plant,seamless tube,seamless tube,cold rolled steel,none,27.7,seamless tube_cold rolled steel_none
+seamless tube plant,forming scrap collection,scrap,cold rolled steel,none,2.3,scrap_cold rolled steel_none
+tube welding plant,welded tube,welded tube,cold rolled steel,none,62.4,welded tube_cold rolled steel_none
+tube welding plant,forming scrap collection,scrap,cold rolled steel,none,4.3,scrap_cold rolled steel_none
+cold rolling mill,forming scrap collection,scrap,cold rolled steel,none,14.2,scrap_cold rolled steel_none
+rod + bar mill,reinforcing bar,reinforcing bar,hot rolled steel,none,173.6,reinforcing bar_hot rolled steel_none
+rod + bar mill,wire rod,wire rod,hot rolled steel,none,148.5,wire rod_hot rolled steel_none
+rod + bar mill,hot rolled bar,bar,hot rolled steel,none,109.7,bar_hot rolled steel_none
+section mill,light sections,light sections,hot rolled steel,none,44.4,light sections_hot rolled steel_none
+section mill,heavy sections,heavy sections,hot rolled steel,none,39.6,heavy sections_hot rolled steel_none
+section mill,rail,rail,hot rolled steel,none,10.0,rail_hot rolled steel_none
+plate mill,plate,plate,hot rolled steel,none,110.0,plate_hot rolled steel_none
+hot strip mill,hot rolled coil,coil,hot rolled steel,none,150.0,coil_hot rolled steel_none
+hot strip mill,HR narrow strip,narrow strip,hot rolled steel,none,40.0,narrow strip_hot rolled steel_none
+cold rolling mill,galvanising plant,coil,cold rolled steel,none,116.1,coil_cold rolled steel_none
+hot strip mill,galvanising plant,coil,hot rolled steel,none,10.3,coil_hot rolled steel_none
+galvanising plant,forming scrap collection,scrap,cold rolled steel,galvanised,1.5798694401,scrap_cold rolled steel_galvanised
+galvanising plant,forming scrap collection,scrap,hot rolled steel,galvanised,1.5798694401,scrap_hot rolled steel_galvanised
+cold rolling mill,tinmill,coil,cold rolled steel,none,12.4,coil_cold rolled steel_none
+tinmill,CRC tinned,coil,cold rolled steel,tin,11.6,coil_cold rolled steel_tin
+tinmill,forming scrap collection,scrap,cold rolled steel,tin,0.8,scrap_cold rolled steel_tin
+cold rolling mill,electrical sheet,electrical sheet,cold rolled steel,none,10.3,electrical sheet_cold rolled steel_none
+cold rolling mill,cold rolled coil,coil,cold rolled steel,none,135.0,coil_cold rolled steel_none
+galvanising plant,organic coating plant,coil,cold rolled steel,galvanised,16.8,coil_cold rolled steel_galvanised
+organic coating plant,CRC coated,coil,cold rolled steel,organic,16.5,coil_cold rolled steel_organic
+organic coating plant,forming scrap collection,coil,cold rolled steel,organic,0.3,coil_cold rolled steel_organic
+galvanising plant,CRC galvanised,coil,cold rolled steel,galvanised,96.4,coil_cold rolled steel_galvanised
+galvanising plant,HRC galvanised,coil,hot rolled steel,galvanised,10.0,coil_hot rolled steel_galvanised
+end of life scrap,scrap preparation,scrap,unknown,unknown,289.5,scrap_unknown_unknown
+forming scrap collection,scrap preparation,scrap,unknown,unknown,98.9,scrap_unknown_unknown
+fabrication scrap collection,scrap preparation,scrap,unknown,unknown,186.0,scrap_unknown_unknown
+scrap preparation,scrap input,scrap,unknown,unknown,570.2,scrap_unknown_unknown
+scrap input,electric furnace,scrap,unknown,unknown,351.0,scrap_unknown_unknown
+scrap input,oxygen blown converter,scrap,unknown,unknown,207.5,scrap_unknown_unknown
+scrap input,foundry iron casting,scrap,unknown,unknown,11.6,scrap_unknown_unknown
+scrap iron,foundry iron casting,scrap,unknown,unknown,32.0,scrap_unknown_unknown
+CRC coated,fabrication:CRC coated:Metal goods,coil,cold rolled steel,organic,8.3,coil_cold rolled steel_organic
+fabrication:CRC coated:Metal goods,manufacturing:Metal goods,coil,cold rolled steel,organic,5.8,coil_cold rolled steel_organic
+fabrication:CRC coated:Metal goods,scrap:Metal goods,scrap,unknown,organic,2.500000000000001,scrap_unknown_organic
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,organic,2.500000000000001,scrap_unknown_organic
+CRC coated,fabrication:CRC coated:Domestic appliances,coil,cold rolled steel,organic,8.3,coil_cold rolled steel_organic
+fabrication:CRC coated:Domestic appliances,manufacturing:Domestic appliances,coil,cold rolled steel,organic,6.6,coil_cold rolled steel_organic
+fabrication:CRC coated:Domestic appliances,scrap:Domestic appliances,scrap,unknown,organic,1.700000000000001,scrap_unknown_organic
+scrap:Domestic appliances,fabrication scrap collection,scrap,unknown,organic,1.700000000000001,scrap_unknown_organic
+CRC galvanised,fabrication:CRC galvanised:Cars,coil,cold rolled steel,galvanised,90.6,coil_cold rolled steel_galvanised
+fabrication:CRC galvanised:Cars,manufacturing:Cars,coil,cold rolled steel,galvanised,54.3,coil_cold rolled steel_galvanised
+fabrication:CRC galvanised:Cars,scrap:Cars,scrap,unknown,galvanised,36.3,scrap_unknown_galvanised
+scrap:Cars,fabrication scrap collection,scrap,unknown,galvanised,36.3,scrap_unknown_galvanised
+CRC galvanised,fabrication:CRC galvanised:Trucks,coil,cold rolled steel,galvanised,5.8,coil_cold rolled steel_galvanised
+fabrication:CRC galvanised:Trucks,manufacturing:Trucks,coil,cold rolled steel,galvanised,3.5,coil_cold rolled steel_galvanised
+fabrication:CRC galvanised:Trucks,scrap:Trucks,scrap,unknown,galvanised,2.3,scrap_unknown_galvanised
+scrap:Trucks,fabrication scrap collection,scrap,unknown,galvanised,2.3,scrap_unknown_galvanised
+CRC tinned,fabrication:CRC tinned:Food packaging,coil,cold rolled steel,tin,11.6,coil_cold rolled steel_tin
+fabrication:CRC tinned:Food packaging,manufacturing:Food packaging,coil,cold rolled steel,tin,8.1,coil_cold rolled steel_tin
+fabrication:CRC tinned:Food packaging,scrap:Food packaging,scrap,unknown,tin,3.5,scrap_unknown_tin
+scrap:Food packaging,fabrication scrap collection,scrap,unknown,tin,3.5,scrap_unknown_tin
+HR narrow strip,fabrication:HR narrow strip:Buildings,narrow strip,hot rolled steel,none,15.2,narrow strip_hot rolled steel_none
+fabrication:HR narrow strip:Buildings,manufacturing:Buildings,narrow strip,hot rolled steel,none,13.7,narrow strip_hot rolled steel_none
+fabrication:HR narrow strip:Buildings,scrap:Buildings,scrap,unknown,none,1.5,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,1.5,scrap_unknown_none
+HR narrow strip,fabrication:HR narrow strip:Infrastructure,narrow strip,hot rolled steel,none,4.8,narrow strip_hot rolled steel_none
+fabrication:HR narrow strip:Infrastructure,manufacturing:Infrastructure,narrow strip,hot rolled steel,none,4.3,narrow strip_hot rolled steel_none
+fabrication:HR narrow strip:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.5,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.5,scrap_unknown_none
+HR narrow strip,fabrication:HR narrow strip:Metal goods,narrow strip,hot rolled steel,none,20.0,narrow strip_hot rolled steel_none
+fabrication:HR narrow strip:Metal goods,manufacturing:Metal goods,narrow strip,hot rolled steel,none,15.0,narrow strip_hot rolled steel_none
+fabrication:HR narrow strip:Metal goods,scrap:Metal goods,scrap,unknown,none,5.0,scrap_unknown_none
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,none,5.0,scrap_unknown_none
+HRC galvanised,fabrication:HRC galvanised:Buildings,coil,hot rolled steel,galvanised,7.6,coil_hot rolled steel_galvanised
+fabrication:HRC galvanised:Buildings,manufacturing:Buildings,coil,hot rolled steel,galvanised,6.8,coil_hot rolled steel_galvanised
+fabrication:HRC galvanised:Buildings,scrap:Buildings,scrap,unknown,galvanised,0.7999999999999998,scrap_unknown_galvanised
+scrap:Buildings,fabrication scrap collection,scrap,unknown,galvanised,0.7999999999999998,scrap_unknown_galvanised
+HRC galvanised,fabrication:HRC galvanised:Infrastructure,coil,hot rolled steel,galvanised,2.4,coil_hot rolled steel_galvanised
+fabrication:HRC galvanised:Infrastructure,manufacturing:Infrastructure,coil,hot rolled steel,galvanised,2.2,coil_hot rolled steel_galvanised
+fabrication:HRC galvanised:Infrastructure,scrap:Infrastructure,scrap,unknown,galvanised,0.19999999999999973,scrap_unknown_galvanised
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,galvanised,0.19999999999999973,scrap_unknown_galvanised
+cast iron products,fabrication:cast iron products:Buildings,cast products,cast iron,none,2.7,cast products_cast iron_none
+fabrication:cast iron products:Buildings,manufacturing:Buildings,cast products,cast iron,none,2.7,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Infrastructure,cast products,cast iron,none,24.6,cast products_cast iron_none
+fabrication:cast iron products:Infrastructure,manufacturing:Infrastructure,cast products,cast iron,none,24.6,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Cars,cast products,cast iron,none,13.1,cast products_cast iron_none
+fabrication:cast iron products:Cars,manufacturing:Cars,cast products,cast iron,none,13.1,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Trucks,cast products,cast iron,none,3.1,cast products_cast iron_none
+fabrication:cast iron products:Trucks,manufacturing:Trucks,cast products,cast iron,none,3.1,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Ships + other,cast products,cast iron,none,0.9,cast products_cast iron_none
+fabrication:cast iron products:Ships + other,manufacturing:Ships + other,cast products,cast iron,none,0.9,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Mechanical equipment,cast products,cast iron,none,8.8,cast products_cast iron_none
+fabrication:cast iron products:Mechanical equipment,manufacturing:Mechanical equipment,cast products,cast iron,none,8.8,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Electrical equipment,cast products,cast iron,none,6.2,cast products_cast iron_none
+fabrication:cast iron products:Electrical equipment,manufacturing:Electrical equipment,cast products,cast iron,none,6.2,cast products_cast iron_none
+cast iron products,fabrication:cast iron products:Metal goods,cast products,cast iron,none,8.9,cast products_cast iron_none
+fabrication:cast iron products:Metal goods,manufacturing:Metal goods,cast products,cast iron,none,8.9,cast products_cast iron_none
+cast steel products,fabrication:cast steel products:Mechanical equipment,cast products,cast steel,none,5.3,cast products_cast steel_none
+fabrication:cast steel products:Mechanical equipment,manufacturing:Mechanical equipment,cast products,cast steel,none,5.3,cast products_cast steel_none
+cast steel products,fabrication:cast steel products:Metal goods,cast products,cast steel,none,5.3,cast products_cast steel_none
+fabrication:cast steel products:Metal goods,manufacturing:Metal goods,cast products,cast steel,none,5.3,cast products_cast steel_none
+cold rolled coil,fabrication:cold rolled coil:Buildings,coil,cold rolled steel,none,50.8,coil_cold rolled steel_none
+fabrication:cold rolled coil:Buildings,manufacturing:Buildings,coil,cold rolled steel,none,45.8,coil_cold rolled steel_none
+fabrication:cold rolled coil:Buildings,scrap:Buildings,scrap,unknown,none,5.0,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,5.0,scrap_unknown_none
+cold rolled coil,fabrication:cold rolled coil:Infrastructure,coil,cold rolled steel,none,16.1,coil_cold rolled steel_none
+fabrication:cold rolled coil:Infrastructure,manufacturing:Infrastructure,coil,cold rolled steel,none,14.4,coil_cold rolled steel_none
+fabrication:cold rolled coil:Infrastructure,scrap:Infrastructure,scrap,unknown,none,1.700000000000001,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,1.700000000000001,scrap_unknown_none
+cold rolled coil,fabrication:cold rolled coil:Mechanical equipment,coil,cold rolled steel,none,31.5,coil_cold rolled steel_none
+fabrication:cold rolled coil:Mechanical equipment,manufacturing:Mechanical equipment,coil,cold rolled steel,none,18.9,coil_cold rolled steel_none
+fabrication:cold rolled coil:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,12.600000000000001,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,12.600000000000001,scrap_unknown_none
+cold rolled coil,fabrication:cold rolled coil:Metal goods,coil,cold rolled steel,none,6.6,coil_cold rolled steel_none
+fabrication:cold rolled coil:Metal goods,manufacturing:Metal goods,coil,cold rolled steel,none,4.6,coil_cold rolled steel_none
+fabrication:cold rolled coil:Metal goods,scrap:Metal goods,scrap,unknown,none,2.0,scrap_unknown_none
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,none,2.0,scrap_unknown_none
+cold rolled coil,fabrication:cold rolled coil:Domestic appliances,coil,cold rolled steel,none,30.0,coil_cold rolled steel_none
+fabrication:cold rolled coil:Domestic appliances,manufacturing:Domestic appliances,coil,cold rolled steel,none,24.0,coil_cold rolled steel_none
+fabrication:cold rolled coil:Domestic appliances,scrap:Domestic appliances,scrap,unknown,none,6.0,scrap_unknown_none
+scrap:Domestic appliances,fabrication scrap collection,scrap,unknown,none,6.0,scrap_unknown_none
+electrical sheet,fabrication:electrical sheet:Electrical equipment,electrical sheet,cold rolled steel,none,10.3,electrical sheet_cold rolled steel_none
+fabrication:electrical sheet:Electrical equipment,manufacturing:Electrical equipment,electrical sheet,cold rolled steel,none,8.2,electrical sheet_cold rolled steel_none
+fabrication:electrical sheet:Electrical equipment,scrap:Electrical equipment,scrap,unknown,none,2.1000000000000014,scrap_unknown_none
+scrap:Electrical equipment,fabrication scrap collection,scrap,unknown,none,2.1000000000000014,scrap_unknown_none
+heavy sections,fabrication:heavy sections:Buildings,heavy sections,hot rolled steel,none,30.1,heavy sections_hot rolled steel_none
+fabrication:heavy sections:Buildings,manufacturing:Buildings,heavy sections,hot rolled steel,none,28.6,heavy sections_hot rolled steel_none
+fabrication:heavy sections:Buildings,scrap:Buildings,scrap,unknown,none,1.5,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,1.5,scrap_unknown_none
+heavy sections,fabrication:heavy sections:Infrastructure,heavy sections,hot rolled steel,none,9.5,heavy sections_hot rolled steel_none
+fabrication:heavy sections:Infrastructure,manufacturing:Infrastructure,heavy sections,hot rolled steel,none,9.0,heavy sections_hot rolled steel_none
+fabrication:heavy sections:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.5,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.5,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Buildings,bar,hot rolled steel,none,3.2,bar_hot rolled steel_none
+fabrication:hot rolled bar:Buildings,manufacturing:Buildings,bar,hot rolled steel,none,2.9,bar_hot rolled steel_none
+fabrication:hot rolled bar:Buildings,scrap:Buildings,scrap,unknown,none,0.30000000000000027,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,0.30000000000000027,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Infrastructure,bar,hot rolled steel,none,1.0,bar_hot rolled steel_none
+fabrication:hot rolled bar:Infrastructure,manufacturing:Infrastructure,bar,hot rolled steel,none,0.9,bar_hot rolled steel_none
+fabrication:hot rolled bar:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.09999999999999998,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.09999999999999998,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Cars,bar,hot rolled steel,none,14.2,bar_hot rolled steel_none
+fabrication:hot rolled bar:Cars,manufacturing:Cars,bar,hot rolled steel,none,11.4,bar_hot rolled steel_none
+fabrication:hot rolled bar:Cars,scrap:Cars,scrap,unknown,none,2.799999999999999,scrap_unknown_none
+scrap:Cars,fabrication scrap collection,scrap,unknown,none,2.799999999999999,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Trucks,bar,hot rolled steel,none,3.3,bar_hot rolled steel_none
+fabrication:hot rolled bar:Trucks,manufacturing:Trucks,bar,hot rolled steel,none,2.7,bar_hot rolled steel_none
+fabrication:hot rolled bar:Trucks,scrap:Trucks,scrap,unknown,none,0.5999999999999996,scrap_unknown_none
+scrap:Trucks,fabrication scrap collection,scrap,unknown,none,0.5999999999999996,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Ships + other,bar,hot rolled steel,none,1.2,bar_hot rolled steel_none
+fabrication:hot rolled bar:Ships + other,manufacturing:Ships + other,bar,hot rolled steel,none,0.9,bar_hot rolled steel_none
+fabrication:hot rolled bar:Ships + other,scrap:Ships + other,scrap,unknown,none,0.29999999999999993,scrap_unknown_none
+scrap:Ships + other,fabrication scrap collection,scrap,unknown,none,0.29999999999999993,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Mechanical equipment,bar,hot rolled steel,none,41.4,bar_hot rolled steel_none
+fabrication:hot rolled bar:Mechanical equipment,manufacturing:Mechanical equipment,bar,hot rolled steel,none,33.1,bar_hot rolled steel_none
+fabrication:hot rolled bar:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,8.299999999999997,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,8.299999999999997,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Electrical equipment,bar,hot rolled steel,none,3.8,bar_hot rolled steel_none
+fabrication:hot rolled bar:Electrical equipment,manufacturing:Electrical equipment,bar,hot rolled steel,none,3.0,bar_hot rolled steel_none
+fabrication:hot rolled bar:Electrical equipment,scrap:Electrical equipment,scrap,unknown,none,0.7999999999999998,scrap_unknown_none
+scrap:Electrical equipment,fabrication scrap collection,scrap,unknown,none,0.7999999999999998,scrap_unknown_none
+hot rolled bar,fabrication:hot rolled bar:Metal goods,bar,hot rolled steel,none,41.6,bar_hot rolled steel_none
+fabrication:hot rolled bar:Metal goods,manufacturing:Metal goods,bar,hot rolled steel,none,29.1,bar_hot rolled steel_none
+fabrication:hot rolled bar:Metal goods,scrap:Metal goods,scrap,unknown,none,12.5,scrap_unknown_none
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,none,12.5,scrap_unknown_none
+hot rolled coil,fabrication:hot rolled coil:Buildings,coil,hot rolled steel,none,74.7,coil_hot rolled steel_none
+fabrication:hot rolled coil:Buildings,manufacturing:Buildings,coil,hot rolled steel,none,67.2,coil_hot rolled steel_none
+fabrication:hot rolled coil:Buildings,scrap:Buildings,scrap,unknown,none,7.5,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,7.5,scrap_unknown_none
+hot rolled coil,fabrication:hot rolled coil:Infrastructure,coil,hot rolled steel,none,23.6,coil_hot rolled steel_none
+fabrication:hot rolled coil:Infrastructure,manufacturing:Infrastructure,coil,hot rolled steel,none,21.2,coil_hot rolled steel_none
+fabrication:hot rolled coil:Infrastructure,scrap:Infrastructure,scrap,unknown,none,2.400000000000002,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,2.400000000000002,scrap_unknown_none
+hot rolled coil,fabrication:hot rolled coil:Trucks,coil,hot rolled steel,none,7.3,coil_hot rolled steel_none
+fabrication:hot rolled coil:Trucks,manufacturing:Trucks,coil,hot rolled steel,none,5.9,coil_hot rolled steel_none
+fabrication:hot rolled coil:Trucks,scrap:Trucks,scrap,unknown,none,1.3999999999999995,scrap_unknown_none
+scrap:Trucks,fabrication scrap collection,scrap,unknown,none,1.3999999999999995,scrap_unknown_none
+hot rolled coil,fabrication:hot rolled coil:Mechanical equipment,coil,hot rolled steel,none,35.0,coil_hot rolled steel_none
+fabrication:hot rolled coil:Mechanical equipment,manufacturing:Mechanical equipment,coil,hot rolled steel,none,28.0,coil_hot rolled steel_none
+fabrication:hot rolled coil:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,7.0,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,7.0,scrap_unknown_none
+hot rolled coil,fabrication:hot rolled coil:Electrical equipment,coil,hot rolled steel,none,2.0,coil_hot rolled steel_none
+fabrication:hot rolled coil:Electrical equipment,manufacturing:Electrical equipment,coil,hot rolled steel,none,1.6,coil_hot rolled steel_none
+fabrication:hot rolled coil:Electrical equipment,scrap:Electrical equipment,scrap,unknown,none,0.3999999999999999,scrap_unknown_none
+scrap:Electrical equipment,fabrication scrap collection,scrap,unknown,none,0.3999999999999999,scrap_unknown_none
+hot rolled coil,fabrication:hot rolled coil:Metal goods,coil,hot rolled steel,none,7.4,coil_hot rolled steel_none
+fabrication:hot rolled coil:Metal goods,manufacturing:Metal goods,coil,hot rolled steel,none,5.5,coil_hot rolled steel_none
+fabrication:hot rolled coil:Metal goods,scrap:Metal goods,scrap,unknown,none,1.9000000000000004,scrap_unknown_none
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,none,1.9000000000000004,scrap_unknown_none
+light sections,fabrication:light sections:Buildings,light sections,hot rolled steel,none,33.8,light sections_hot rolled steel_none
+fabrication:light sections:Buildings,manufacturing:Buildings,light sections,hot rolled steel,none,32.1,light sections_hot rolled steel_none
+fabrication:light sections:Buildings,scrap:Buildings,scrap,unknown,none,1.6999999999999957,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,1.6999999999999957,scrap_unknown_none
+light sections,fabrication:light sections:Infrastructure,light sections,hot rolled steel,none,10.7,light sections_hot rolled steel_none
+fabrication:light sections:Infrastructure,manufacturing:Infrastructure,light sections,hot rolled steel,none,10.1,light sections_hot rolled steel_none
+fabrication:light sections:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.5999999999999996,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.5999999999999996,scrap_unknown_none
+plate,fabrication:plate:Buildings,plate,hot rolled steel,none,4.7,plate_hot rolled steel_none
+fabrication:plate:Buildings,manufacturing:Buildings,plate,hot rolled steel,none,4.2,plate_hot rolled steel_none
+fabrication:plate:Buildings,scrap:Buildings,scrap,unknown,none,0.5,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,0.5,scrap_unknown_none
+plate,fabrication:plate:Infrastructure,plate,hot rolled steel,none,1.5,plate_hot rolled steel_none
+fabrication:plate:Infrastructure,manufacturing:Infrastructure,plate,hot rolled steel,none,1.3,plate_hot rolled steel_none
+fabrication:plate:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.19999999999999996,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.19999999999999996,scrap_unknown_none
+plate,fabrication:plate:Ships + other,plate,hot rolled steel,none,33.5,plate_hot rolled steel_none
+fabrication:plate:Ships + other,manufacturing:Ships + other,plate,hot rolled steel,none,26.8,plate_hot rolled steel_none
+fabrication:plate:Ships + other,scrap:Ships + other,scrap,unknown,none,6.699999999999999,scrap_unknown_none
+scrap:Ships + other,fabrication scrap collection,scrap,unknown,none,6.699999999999999,scrap_unknown_none
+plate,fabrication:plate:Mechanical equipment,plate,hot rolled steel,none,33.2,plate_hot rolled steel_none
+fabrication:plate:Mechanical equipment,manufacturing:Mechanical equipment,plate,hot rolled steel,none,26.6,plate_hot rolled steel_none
+fabrication:plate:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,6.600000000000001,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,6.600000000000001,scrap_unknown_none
+plate,fabrication:plate:Electrical equipment,plate,hot rolled steel,none,3.8,plate_hot rolled steel_none
+fabrication:plate:Electrical equipment,manufacturing:Electrical equipment,plate,hot rolled steel,none,3.0,plate_hot rolled steel_none
+fabrication:plate:Electrical equipment,scrap:Electrical equipment,scrap,unknown,none,0.7999999999999998,scrap_unknown_none
+scrap:Electrical equipment,fabrication scrap collection,scrap,unknown,none,0.7999999999999998,scrap_unknown_none
+plate,fabrication:plate:Metal goods,plate,hot rolled steel,none,33.4,plate_hot rolled steel_none
+fabrication:plate:Metal goods,manufacturing:Metal goods,plate,hot rolled steel,none,25.1,plate_hot rolled steel_none
+fabrication:plate:Metal goods,scrap:Metal goods,scrap,unknown,none,8.299999999999997,scrap_unknown_none
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,none,8.299999999999997,scrap_unknown_none
+rail,fabrication:rail:Infrastructure,rail,hot rolled steel,none,9.0,rail_hot rolled steel_none
+fabrication:rail:Infrastructure,manufacturing:Infrastructure,rail,hot rolled steel,none,8.5,rail_hot rolled steel_none
+fabrication:rail:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.5,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.5,scrap_unknown_none
+rail,fabrication:rail:Mechanical equipment,rail,hot rolled steel,none,1.0,rail_hot rolled steel_none
+fabrication:rail:Mechanical equipment,manufacturing:Mechanical equipment,rail,hot rolled steel,none,0.9,rail_hot rolled steel_none
+fabrication:rail:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,0.09999999999999998,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,0.09999999999999998,scrap_unknown_none
+reinforcing bar,fabrication:reinforcing bar:Buildings,reinforcing bar,hot rolled steel,none,92.0,reinforcing bar_hot rolled steel_none
+fabrication:reinforcing bar:Buildings,manufacturing:Buildings,reinforcing bar,hot rolled steel,none,87.4,reinforcing bar_hot rolled steel_none
+fabrication:reinforcing bar:Buildings,scrap:Buildings,scrap,unknown,none,4.599999999999994,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,4.599999999999994,scrap_unknown_none
+reinforcing bar,fabrication:reinforcing bar:Infrastructure,reinforcing bar,hot rolled steel,none,81.6,reinforcing bar_hot rolled steel_none
+fabrication:reinforcing bar:Infrastructure,manufacturing:Infrastructure,reinforcing bar,hot rolled steel,none,77.5,reinforcing bar_hot rolled steel_none
+fabrication:reinforcing bar:Infrastructure,scrap:Infrastructure,scrap,unknown,none,4.099999999999994,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,4.099999999999994,scrap_unknown_none
+seamless tube,fabrication:seamless tube:Buildings,seamless tube,cold rolled steel,none,13.2,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Buildings,manufacturing:Buildings,seamless tube,cold rolled steel,none,12.5,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Buildings,scrap:Buildings,scrap,unknown,none,0.6999999999999993,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,0.6999999999999993,scrap_unknown_none
+seamless tube,fabrication:seamless tube:Infrastructure,seamless tube,cold rolled steel,none,4.2,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Infrastructure,manufacturing:Infrastructure,seamless tube,cold rolled steel,none,4.0,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Infrastructure,scrap:Infrastructure,scrap,unknown,none,0.20000000000000018,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,0.20000000000000018,scrap_unknown_none
+seamless tube,fabrication:seamless tube:Cars,seamless tube,cold rolled steel,none,4.6,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Cars,manufacturing:Cars,seamless tube,cold rolled steel,none,4.4,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Cars,scrap:Cars,scrap,unknown,none,0.1999999999999993,scrap_unknown_none
+scrap:Cars,fabrication scrap collection,scrap,unknown,none,0.1999999999999993,scrap_unknown_none
+seamless tube,fabrication:seamless tube:Trucks,seamless tube,cold rolled steel,none,0.5,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Trucks,manufacturing:Trucks,seamless tube,cold rolled steel,none,0.5,seamless tube_cold rolled steel_none
+seamless tube,fabrication:seamless tube:Ships + other,seamless tube,cold rolled steel,none,0.8,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Ships + other,manufacturing:Ships + other,seamless tube,cold rolled steel,none,0.8,seamless tube_cold rolled steel_none
+seamless tube,fabrication:seamless tube:Mechanical equipment,seamless tube,cold rolled steel,none,3.3,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Mechanical equipment,manufacturing:Mechanical equipment,seamless tube,cold rolled steel,none,3.2,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,0.09999999999999964,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,0.09999999999999964,scrap_unknown_none
+seamless tube,fabrication:seamless tube:Electrical equipment,seamless tube,cold rolled steel,none,0.7,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Electrical equipment,manufacturing:Electrical equipment,seamless tube,cold rolled steel,none,0.7,seamless tube_cold rolled steel_none
+seamless tube,fabrication:seamless tube:Metal goods,seamless tube,cold rolled steel,none,0.3,seamless tube_cold rolled steel_none
+fabrication:seamless tube:Metal goods,manufacturing:Metal goods,seamless tube,cold rolled steel,none,0.3,seamless tube_cold rolled steel_none
+welded tube,fabrication:welded tube:Buildings,welded tube,cold rolled steel,none,14.1,welded tube_cold rolled steel_none
+fabrication:welded tube:Buildings,manufacturing:Buildings,welded tube,cold rolled steel,none,13.4,welded tube_cold rolled steel_none
+fabrication:welded tube:Buildings,scrap:Buildings,scrap,unknown,none,0.6999999999999993,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,0.6999999999999993,scrap_unknown_none
+welded tube,fabrication:welded tube:Infrastructure,welded tube,cold rolled steel,none,25.0,welded tube_cold rolled steel_none
+fabrication:welded tube:Infrastructure,manufacturing:Infrastructure,welded tube,cold rolled steel,none,23.8,welded tube_cold rolled steel_none
+fabrication:welded tube:Infrastructure,scrap:Infrastructure,scrap,unknown,none,1.1999999999999993,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,1.1999999999999993,scrap_unknown_none
+welded tube,fabrication:welded tube:Trucks,welded tube,cold rolled steel,none,0.5,welded tube_cold rolled steel_none
+fabrication:welded tube:Trucks,manufacturing:Trucks,welded tube,cold rolled steel,none,0.5,welded tube_cold rolled steel_none
+welded tube,fabrication:welded tube:Ships + other,welded tube,cold rolled steel,none,0.8,welded tube_cold rolled steel_none
+fabrication:welded tube:Ships + other,manufacturing:Ships + other,welded tube,cold rolled steel,none,0.8,welded tube_cold rolled steel_none
+welded tube,fabrication:welded tube:Mechanical equipment,welded tube,cold rolled steel,none,17.5,welded tube_cold rolled steel_none
+fabrication:welded tube:Mechanical equipment,manufacturing:Mechanical equipment,welded tube,cold rolled steel,none,16.6,welded tube_cold rolled steel_none
+fabrication:welded tube:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,0.8999999999999986,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,0.8999999999999986,scrap_unknown_none
+welded tube,fabrication:welded tube:Electrical equipment,welded tube,cold rolled steel,none,3.7,welded tube_cold rolled steel_none
+fabrication:welded tube:Electrical equipment,manufacturing:Electrical equipment,welded tube,cold rolled steel,none,3.6,welded tube_cold rolled steel_none
+fabrication:welded tube:Electrical equipment,scrap:Electrical equipment,scrap,unknown,none,0.10000000000000009,scrap_unknown_none
+scrap:Electrical equipment,fabrication scrap collection,scrap,unknown,none,0.10000000000000009,scrap_unknown_none
+welded tube,fabrication:welded tube:Metal goods,welded tube,cold rolled steel,none,0.7,welded tube_cold rolled steel_none
+fabrication:welded tube:Metal goods,manufacturing:Metal goods,welded tube,cold rolled steel,none,0.7,welded tube_cold rolled steel_none
+wire rod,fabrication:wire rod:Buildings,wire rod,hot rolled steel,none,43.1,wire rod_hot rolled steel_none
+fabrication:wire rod:Buildings,manufacturing:Buildings,wire rod,hot rolled steel,none,40.9,wire rod_hot rolled steel_none
+fabrication:wire rod:Buildings,scrap:Buildings,scrap,unknown,none,2.200000000000003,scrap_unknown_none
+scrap:Buildings,fabrication scrap collection,scrap,unknown,none,2.200000000000003,scrap_unknown_none
+wire rod,fabrication:wire rod:Infrastructure,wire rod,hot rolled steel,none,38.2,wire rod_hot rolled steel_none
+fabrication:wire rod:Infrastructure,manufacturing:Infrastructure,wire rod,hot rolled steel,none,36.3,wire rod_hot rolled steel_none
+fabrication:wire rod:Infrastructure,scrap:Infrastructure,scrap,unknown,none,1.9000000000000057,scrap_unknown_none
+scrap:Infrastructure,fabrication scrap collection,scrap,unknown,none,1.9000000000000057,scrap_unknown_none
+wire rod,fabrication:wire rod:Cars,wire rod,hot rolled steel,none,4.9,wire rod_hot rolled steel_none
+fabrication:wire rod:Cars,manufacturing:Cars,wire rod,hot rolled steel,none,4.4,wire rod_hot rolled steel_none
+fabrication:wire rod:Cars,scrap:Cars,scrap,unknown,none,0.5,scrap_unknown_none
+scrap:Cars,fabrication scrap collection,scrap,unknown,none,0.5,scrap_unknown_none
+wire rod,fabrication:wire rod:Trucks,wire rod,hot rolled steel,none,4.9,wire rod_hot rolled steel_none
+fabrication:wire rod:Trucks,manufacturing:Trucks,wire rod,hot rolled steel,none,4.4,wire rod_hot rolled steel_none
+fabrication:wire rod:Trucks,scrap:Trucks,scrap,unknown,none,0.5,scrap_unknown_none
+scrap:Trucks,fabrication scrap collection,scrap,unknown,none,0.5,scrap_unknown_none
+wire rod,fabrication:wire rod:Ships + other,wire rod,hot rolled steel,none,1.0,wire rod_hot rolled steel_none
+fabrication:wire rod:Ships + other,manufacturing:Ships + other,wire rod,hot rolled steel,none,0.9,wire rod_hot rolled steel_none
+fabrication:wire rod:Ships + other,scrap:Ships + other,scrap,unknown,none,0.09999999999999998,scrap_unknown_none
+scrap:Ships + other,fabrication scrap collection,scrap,unknown,none,0.09999999999999998,scrap_unknown_none
+wire rod,fabrication:wire rod:Mechanical equipment,wire rod,hot rolled steel,none,1.5,wire rod_hot rolled steel_none
+fabrication:wire rod:Mechanical equipment,manufacturing:Mechanical equipment,wire rod,hot rolled steel,none,1.3,wire rod_hot rolled steel_none
+fabrication:wire rod:Mechanical equipment,scrap:Mechanical equipment,scrap,unknown,none,0.19999999999999996,scrap_unknown_none
+scrap:Mechanical equipment,fabrication scrap collection,scrap,unknown,none,0.19999999999999996,scrap_unknown_none
+wire rod,fabrication:wire rod:Electrical equipment,wire rod,hot rolled steel,none,7.8,wire rod_hot rolled steel_none
+fabrication:wire rod:Electrical equipment,manufacturing:Electrical equipment,wire rod,hot rolled steel,none,7.0,wire rod_hot rolled steel_none
+fabrication:wire rod:Electrical equipment,scrap:Electrical equipment,scrap,unknown,none,0.7999999999999998,scrap_unknown_none
+scrap:Electrical equipment,fabrication scrap collection,scrap,unknown,none,0.7999999999999998,scrap_unknown_none
+wire rod,fabrication:wire rod:Metal goods,wire rod,hot rolled steel,none,47.1,wire rod_hot rolled steel_none
+fabrication:wire rod:Metal goods,manufacturing:Metal goods,wire rod,hot rolled steel,none,37.7,wire rod_hot rolled steel_none
+fabrication:wire rod:Metal goods,scrap:Metal goods,scrap,unknown,none,9.399999999999999,scrap_unknown_none
+scrap:Metal goods,fabrication scrap collection,scrap,unknown,none,9.399999999999999,scrap_unknown_none
