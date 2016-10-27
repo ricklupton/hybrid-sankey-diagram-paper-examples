@@ -1,4 +1,11 @@
-These notebooks produce the Sankey diagrams in the paper.
+These notebooks produce the Sankey diagrams in the paper "Visual analyses of
+multidimensional data for understanding resource use"
+
+## Try online
+
+Run the examples without any installation using Binder:
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/ricklupton/visual-analyses-multidimensional-data-examples)
 
 ## Prerequisites
 
